@@ -15,7 +15,7 @@ export default defineConfig(({ mode }) => ({
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  base: "/trace-your-thoughts/",
+  base: "/",
   build: {
     outDir: "docs",
   },
